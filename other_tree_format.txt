@@ -1,0 +1,27 @@
+libA/
+    - include/
+        - libA/
+            - sourceA.h
+    - privateHeaderA1.h
+    - privateHeaderA2.h
+    - sourceA.cpp
+libB/
+    - include/
+        - libB/
+            - sourceB.h
+    - submodule/
+        - submodule.h
+        - submodule.cpp
+    - privateHeaderB1.h
+    - privateHeaderB2.h
+    - sourceB.cpp
+    - sourceB_impl.h
+    - sourceB_impl.cpp
+libC/
+    - include/
+        - libC/
+            - sourceC.h
+    - privateHeaderC1.h
+    - privateHeaderC2.h
+    - sourceC.cpp
+main.cpp

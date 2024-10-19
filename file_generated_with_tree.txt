@@ -1,0 +1,30 @@
+./project
+├── libA
+│   └── include
+│       └── libA
+│           ├── privateHeaderA1.h
+│           ├── privateHeaderA2.h
+│           ├── sourceA.cpp
+│           └── sourceA.h
+├── libB
+│   └── include
+│       └── libB
+│           ├── sourceB.h
+│           └── submodule
+│               ├── privateHeaderB1.h
+│               ├── privateHeaderB2.h
+│               ├── sourceB.cpp
+│               ├── sourceB_impl.cpp
+│               ├── sourceB_impl.h
+│               ├── submodule.cpp
+│               └── submodule.h
+├── libC
+│   └── include
+│       └── libC
+│           ├── privateHeaderC1.h
+│           ├── privateHeaderC2.h
+│           ├── sourceC.cpp
+│           └── sourceC.h
+└── main.cpp
+
+11 directories, 17 files
